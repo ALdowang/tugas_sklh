@@ -1,0 +1,20 @@
+package knfhjk;
+
+public class game {
+
+public static void main(String[] args){
+
+player petani = new player();
+
+    petani.nama = "p"
+    petani.speed = 78;
+    petani.healthPoin = 100;
+
+    petani.run();
+
+    if(player.isDead){
+        System.out.println("kalah")
+    }
+}
+}
+
